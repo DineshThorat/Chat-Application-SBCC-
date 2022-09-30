@@ -1,6 +1,7 @@
 .login_bg{
-    background-image: url("https://images.unsplash.com/photo-1603573355706-3f15d98cf100?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1029&q=80");
-    height: 90vh;
+    background-image: url("https://media.istockphoto.com/photos/round-podium-with-pink-and-green-lights-background-picture-id1314248856?b=1&k=20&m=1314248856&s=170667a&w=0&h=SG5abl4PL_UtXUZr48DHPCOxEPzw-NaafZ05AZfHrfQ=");
+    height: 85vh;
+    /* width: 100vw; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -8,8 +8,8 @@ import './Login.css';
 function Login() {
   return (
     <Container>
-      <Row>
-        <Col md={5} className="login_bg" />
+      <Row className="login_bg" style={{display:'flex', justifyContent:'center', marginLeft:'-111px', marginRight:'-110px'}}>
+        {/* <Col md={5} className="login_bg" /> */}
         <Col md={7} className="d-flex flex-direction-column align-items-center justify-content-center" >
 
           <Form style={{ width: "80%", maxWidth: 500 }}>
@@ -27,7 +27,7 @@ function Login() {
             </Form.Group>
 
             <Button variant="primary" type="submit">
-              Login
+              Login 
             </Button>
             <div className='py-4'>
               <p className="text-center">

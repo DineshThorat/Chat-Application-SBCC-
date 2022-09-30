@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container} from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom';
@@ -13,7 +13,7 @@ function validateImg(){
 function Signup() {
   return (
     <Container>
-      <Row>
+      <div className="signup_bg row" style={{display:'flex', justifyContent:'center', marginLeft:'-111px'}} >
         <Col md={7} className="d-flex flex-direction-column align-items-center justify-content-center" >
 
           <Form style={{ width: "80%", maxWidth: 500 }}>
@@ -52,9 +52,9 @@ function Signup() {
             </div>
           </Form>
         </Col>
-        <Col md={5} className="signup_bg" />
+        {/* <Col md={5} className="signup_bg" /> */}
 
-      </Row>
+      </div>
     </Container>
   );
 }

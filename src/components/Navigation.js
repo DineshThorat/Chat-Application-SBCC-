@@ -2,13 +2,14 @@ import React from 'react';
 import {Nav, Navbar, Container, NavDropdown} from "react-bootstrap";
 import {LinkContainer} from "react-router-bootstrap";
 import logo from "../assets/logo3.png"
+
 function Navigation() {
   return (
     <Navbar bg="light" expand="lg">
     <Container>
     <LinkContainer to="/">
       <Navbar.Brand>
-        <img src={logo} alt='' style={{width: 70, height: 50}} />
+        <img src={logo} alt='' style={{width: 70, height: 60}} />
       </Navbar.Brand>
     </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

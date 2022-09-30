@@ -1,10 +1,17 @@
 .signup_bg{
-    background-image: url("https://images.unsplash.com/photo-1530879550116-e0923a1f5812?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80");
-    height: 90vh;
+    background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
+    height: 85vh;
+    width: 100vw;
+    /* margin-left: -101px; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
+}
+
+.signup_bg row{
+    margin-left: -101px;
+
 }
 
 .signup-profile-pic_container{
@@ -12,7 +19,7 @@
     height: 100px;
     margin: 0 auto;
     position: relative;
-
+ 
 }
 
 .signup-profile-pic{
