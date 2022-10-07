@@ -1,41 +1,48 @@
-.signup_bg{
-    background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
-    height: 85vh;
-    width: 100vw;
-    /* margin-left: -101px; */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
+.signup_bg {
+  /* background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE="); */
+  background-image: url("https://media.istockphoto.com/photos/round-podium-with-pink-and-green-lights-background-picture-id1314248856?b=1&k=20&m=1314248856&s=170667a&w=0&h=SG5abl4PL_UtXUZr48DHPCOxEPzw-NaafZ05AZfHrfQ=");
+  height: 85vh;
+  width: 100vw;
+  /* margin-left: -101px; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
-.signup_bg row{
-    margin-left: -101px;
-
+.signup_bg row {
+  margin-left: -101px;
 }
 
-.signup-profile-pic_container{
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    position: relative;
- 
+.signup-profile-pic_container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.signup-profile-pic{
-    width: 100px;
-    border-radius: 50%;
-    border: 2px solid black;
-    object-fit: cover;
-    height: 100px;
+.signup-profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  object-fit: cover;
+  height: 100px;
 }
 
-.add-picture-icon{
-    position: absolute;
-    bottom: 0;
-    right: 10px;
-    color: green;
-    background: white;
+.add-picture-icon {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: green;
+  background: white;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.input-field span {
     cursor: pointer;
-    z-index: 99;
-}
+    margin-left: 470px;
+    margin-top: -30px;
+    display: flex;
+  }
+  

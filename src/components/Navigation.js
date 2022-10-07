@@ -5,7 +5,7 @@ import logo from "../assets/logo3.png"
 
 function Navigation() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg='light' expand="lg" style={{background: 'rgba(167, 131, 190, 0.856)'}}>
     <Container>
     <LinkContainer to="/">
       <Navbar.Brand>
