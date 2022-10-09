@@ -1,0 +1,6 @@
+.messages-output {
+    height: 77vh;
+    border: 1px solid lightgray;
+    overflow: scroll;
+    margin-bottom: 15px;
+}
